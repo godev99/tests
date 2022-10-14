@@ -49,7 +49,7 @@ Les bornes de recherche sont également déclarées comme client, en tant que ch
 Par la suite, nous opérons une boucle sur les jeux de données, en passant en paramètres :
 
 - Le jeu de données courant.
-- Le tableau d'entier coté client. Celui constitue le lien entre chaque appel, car il concatène l'ensemble des jeux de données.
+- Le tableau d'entier coté client. Celui-ci constitue le lien entre chaque appel, car il concatène l'ensemble des jeux de données.
 - les délimiteurs (afin d'éviter de les intégrer coté module).
 
 ```
