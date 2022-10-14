@@ -94,7 +94,7 @@ Voici les opérations effectuées chronologiquement par cette fonction :
 - Convertir la chaine de caractères en tableau d'entiers.
 - Renvoyer le statut de la recherche de badge ainsi que ce dernier, qu'il ait une valeur ou non.
 
-Le partie prie
+_Plutôt que de traiter des recherches sur des tableaux d'entiers (pas de fonction native en go), l'approche de convertir en string permet de simplifier le traitement et de rendre le code plus maintenable_
 
 ```
 // GetDataChunk : Main function will provide a badge if exist with chunks
